@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="input.css">
+</head>
+<body class="bg-purple-900">
+    <div class="flex justify-center items-center mt-[12rem] ">
+        <div class="container border border-gray-600 pt-8 rounded-0 flex flex-col justify-center items-center w-[27rem] h-[21rem] bg-gray-100 rounded-md shadow-md">
+            <div class="heading mb-4">
+                <h1 class="text-[42px] text-red-700 font-[600]">Alarm Clock</h1>
+            </div>
+            <div class="time text-[42px] border border-purple-700 rounded-lg py-3 px-3 bg-purple-100 text-purple-900 font-medium" id="time">
+            </div>
+        
+        <div class="alarm pt-6 pb-8">
+            <label for="alarmTime" class="text-[25px] text-purple-900 ">Set Alarm: </label>
+            <input type="time" id="alarmTime" class="bg-gray-500 text-white"><br>
+            <center><button id="setAlarm" class="bg-blue-700 border border-black mt-4 text-white px-2 py-1 rounded-md w-[118px] text-[20px]">Set</button></center>
+          </div>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
